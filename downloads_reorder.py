@@ -6,6 +6,12 @@ from pprint import pprint
 DOWNLOADS_PATH = os.path.join(
     os.path.expanduser("~"),
     "Downloads"
+'''
+If your Downloads save in another disk then comment the top and just use:
+DOWNLOADS_PATH = os.path.normpath("E:\\Downloads")
+                                   ^
+                                Replace
+'''
 )
 
 # File type to folder
